@@ -1,76 +1,85 @@
 <h2 align="center">Hi, I'm Aman Srivastava 👋</h2>
 <p align="center">
-  <a align="center" href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=F72EE2&size=25&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Front+end+developer;An+Aspiring+Software+Developer"</></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Sans&color=F72EE2&size=25&center=true&vCenter=true&width=600&lines=Software+Engineer+%40+Juspay;I+build+AI+agents+and+real-time+voice+AI;Python+%E2%80%A2+FastAPI+%E2%80%A2+Pipecat+%E2%80%A2+Redis+%E2%80%A2+K8s" alt="Typing SVG" /></a>
 </p>
+
 <p align="center">
-<img align="middle" alt="GIF" src="https://i.pinimg.com/originals/65/a5/ec/65a5ec60b90f6b8faede3390ad5ee065.gif" />
-</p>
-<p>
- I'm on a journey to become a Software Development Engineer, backed by a strong foundation in computer science and engineering. I excel in quickly learning and applying new technologies to real-world projects. I'm eager to seize opportunities where I can leverage my skills to make a positive impact on the world. Outside of coding, I have a keen interest in Competitive Programming and enjoy tackling programming puzzles in my free time. Let's code and create something amazing together!🚀
-</p>
-<p align="center">
- 
-![image](https://user-images.githubusercontent.com/61057666/169029838-74df663d-2e62-4d77-bdff-b43f7d63f00f.png)
-
+  <a href="https://www.linkedin.com/in/aman-srivastava-73113b222"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:srivastava.aman2002@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=AmanS09&label=Profile%20Views&color=F72EE2&style=for-the-badge" />
 </p>
 
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
-<br>
-  <a align='center' href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=ridhamrj&label=Profile%20Views&color=0&icon=0&pretty=true" />
-</a>
-  
-**Talking about Personal Stuffs:**
-<ul>
-  <li>- 🔭 I’m currently working on `Something Intresting`.</li>
-  <li>- 🌱 I’m currently learning NextJS & MongoDB</li>
-  <li>- 👯 I’m looking to collaborate for `Dev Projects`</li>
-  <li>- 💬 Ask me about anything, Except Genral Knowledge :sweat_smile:</li>
-  <li>- 👨‍💻 Life Hack: Learn new tech :fire: and share what you have learned :tada:</li>
-  <li>- ⚡ Fun fact: I waste most of my time on my Laptop</li>
-</ul>
+I'm a **Software Engineer at [Juspay](https://juspay.io)** in Bengaluru, where I build production AI systems: multi-agent copilots that answer questions over payments data and investigate failures on their own, and real-time voice agents that make and take phone calls at scale. I care about agents you can trust in production, which means good evals, observability, and systems that recover on their own.
 
+### 🔭 What I'm working on
+- 🤖 **Multi-agent orchestration**: a routing agent hands work to specialised agents (analytics, failure investigation, business intelligence) with 50+ MCP tools and multi-tier RAG
+- 🔍 **Autonomous failure investigation**: agents that trace an order across gateway, acquirer and network layers, test ranked hypotheses against raw logs, and write the root-cause report
+- 📞 **Real-time voice AI**: streaming STT → LLM → TTS pipelines on Pipecat, WebRTC and Twilio/Exotel/Plivo, driven by a Redis dispatcher that clears 100k-lead backlogs at ~2.5k leads/s
+- 🧪 **Evals and self-improvement**: LLM-as-a-judge scoring of live traces, reasoning-gap detection, and prompt reruns before anything is promoted to production
 
-#### A little more about me
-```javascript
-const Aman= {
-  pronouns: "He" | "Him",
-  age: 21 ,
-  code: ["Javascript", "React", "HTML", "CSS", "Java"],
-  askMeAbout: ["web dev", "frontend dev", "Java" ],
-  technologies: {
-      frontend: {
-          js: ["React JS", "Next JS" , "Typescript" ],
-          css: ["Tailwind CSS", "SCSS/SASS"]
-      },
-      codeEditor: {
-          competitiveProgramming: ["Leetcode","HackerRank","GFG","Codechef","Coding Ninja"],
-          frontEndDev: ["VS Code"]
-      }
-  }
+### ⚡ A little more about me
+```python
+aman = {
+    "role": "Software Engineer @ Juspay",
+    "location": "Bengaluru, India",
+    "education": "B.Tech CSE, Lovely Professional University (CGPA 8.79)",
+    "languages": ["Python", "TypeScript", "JavaScript", "SQL", "Java", "C++"],
+    "ask_me_about": ["AI agents", "voice AI", "evals", "Redis at scale", "FastAPI"],
+    "achievements": [
+        "2nd place, company-wide hackathon (support-desk agent automation)",
+        "LeetCode 1700+ | CodeChef 3★ (max 1796) | GeeksforGeeks 4★",
+    ],
 }
 ```
 
-## 🛠️ Technologies and Tools I use:
+### 🚀 Featured projects
+| Project | What it does | Stack |
+| --- | --- | --- |
+| **Conversational Analytics Agent Platform** | LLM copilot that turns natural-language questions into structured analytics queries; hierarchical agent-as-a-tool design, hybrid vector search, SSE-streamed reasoning, a reviewer loop on every report | Python, FastAPI, Azure OpenAI, Langfuse, Redis, PostgreSQL, K8s |
+| **Real-Time Voice AI Agent Platform** | Inbound IVR and outbound calling with VAD, ML end-of-turn detection and barge-in; greeting pre-synthesis and pre-warmed agent pools cut answer time from 8s to 3s | Python, Pipecat-AI, WebRTC, Twilio, Redis |
+| **FlowDesk** | Messaging and workflow hub: email and chat in one place, with SLAs, a trigger/step automation engine (10+ triggers, 25+ actions) and LLM email classification | TypeScript, Node.js, React, Prisma, Redis |
 
-<p>
-<img alt="C++" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" height="25px"/>
-<img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"  height="25px"/>
-<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="25px"/>
-<img alt="NextJs" src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" height="25px"/>
-<img alt="npm" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" height="25px"/>
-<img alt="Tailwidcss" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height="25px"/>
-<img alt="Material UI" src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" height="25px"/>
-<img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="25px"/>
-<img alt="Css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="25px"/>
-<img alt="Jquery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" height="25px"/>
-<img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" height="25px"/>
+### 🛠️ Tech I use
+**Languages**<br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
 
- 
-### 🚀 My contributions! Whose <img src= "https://c.tenor.com/BczFoyx41WoAAAAj/swallowed-the-mighty-ones.gif" width= "30" height= "30"> snake is this!? 😭
-![Contribution grid snake animation](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg)
+**AI & Agents**<br>
+<img src="https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Langfuse-0A0A0A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LiteLLM-1E88E5?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Pipecat--AI-6C47FF?style=for-the-badge" />
 
+**Backend & Data**<br>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" />
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white" />
 
-  | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=AmanS09&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Aman's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RidhamRj&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
+**Infra & Tooling**<br>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
+### 📊 GitHub stats
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AmanS09&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Aman's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanS09&layout=compact&theme=buefy&hide_border=true" alt="Top languages" />
+</p>
+
+### 🐍 Contributions
+![Contribution grid snake animation](https://raw.githubusercontent.com/AmanS09/AmanS09/output/github-contribution-grid-snake-dark.svg)
